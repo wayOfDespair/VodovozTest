@@ -1,0 +1,23 @@
+﻿<Application x:Class="Vodovoz.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="View/MainView.xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <Application.Resources>
+
+        <sys:String x:Key="Lastname">Фамилия</sys:String>
+        <sys:String x:Key="Firstname">Имя</sys:String>
+        <sys:String x:Key="Patronymic">Отчество</sys:String>
+        <sys:String x:Key="Birthday">Дата рождения</sys:String>
+        <sys:String x:Key="Sex">Пол</sys:String>
+        <sys:String x:Key="Department">Подразделение</sys:String>
+        <sys:String x:Key="Employee">Сотрудник</sys:String>
+        <sys:String x:Key="Supervisor">Руководитель</sys:String>
+        <sys:String x:Key="ProductName">Наименование продукта</sys:String>
+        <sys:String x:Key="Order">Заказ</sys:String>
+        <sys:String x:Key="ApplyButtonText">Подтвердить</sys:String>
+        <sys:String x:Key="AddCommandText">Добавить</sys:String>
+        <sys:String x:Key="EditCommandText">Редактировать</sys:String>
+        <sys:String x:Key="RemoveCommandText">Удалить</sys:String>
+    </Application.Resources>
+</Application>
